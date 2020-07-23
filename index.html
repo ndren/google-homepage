@@ -2,10 +2,11 @@
     <title>Google</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<main>
-    <body>
+
+<body>
+    <main>
         <div id="container">
-            <nav class="nav">
+            <nav>
                 <div>
                     <a href="#">About</a>
                     <a href="#">Store</a>
@@ -15,7 +16,31 @@
                     <a href="#">Images</a>
                 </div>
             </nav>
-            <img id="logo" src="/images/googlelogo.png" alt="Google logo">
-            <form id="search-bar"><input type="text"></form>
+            <div id="google-search">
+                <img id="logo" src="images/googlelogo.png" alt="Google logo">
+                <form id="search-bar">
+                    <input id="search" type="search" autocomplete="off">
+                    <div id="buttons">
+                        <button>Google Search</button>
+                        <button>I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
+            <div id="bottom-box">
+                <div id="country-box">Earth</div>
+                <div id="info-box">
+                    <div>
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">How Search works</a>
+                    </div>
+                    <div>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+    </main>
+</body>
